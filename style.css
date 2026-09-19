@@ -47,3 +47,56 @@ button {
     cursor: pointer;
     font-weight: bold;
 }
+.tienda {
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.tienda h2 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: #151515;
+    padding: 20px;
+    width: 250px;
+    border: 1px solid #333;
+}
+
+.foto-producto {
+    height: 250px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.producto h3 {
+    margin-top: 20px;
+}
+
+.producto p {
+    color: #d4af37;
+    font-size: 18px;
+}
+
+.contacto {
+    padding: 100px 20px;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+.contacto h2 {
+    font-size: 40px;
+    letter-spacing: 4px;
+}
